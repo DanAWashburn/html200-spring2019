@@ -12,15 +12,14 @@ while (quit === false) {
     }
     else if (input === 'W') {
         let withdrawalAmount = prompt('Please enter amount you wish to squander, you profligate monster:');
-        result = Number(balance) - Number(withdrawalAmount)
+        result = Number(balance) - Number(withdrawalAmount);
         alert ('Your new balance is $' + (result) + '.');
     }
     else if (input === 'D') {
         let depositAmount = prompt('Please enter amount you wish to deposit:');
-        result = Number(balance) + Number(depositAmount)
+        result = Number(balance) + Number(depositAmount);
         alert ('Your new balance is $' + (result) + '.');
     }
-
 }
 
 alert('Thank you for using Montlake Banking. Your session has now ended.')
